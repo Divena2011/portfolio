@@ -1,0 +1,27 @@
+body{
+  background:  lightpink;
+  margin:0;
+  font-family: sans-serif;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  align-items: center;
+  opacity:0.83;
+   background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:#eeaeca;
+}
+.flex-container img{
+  border-radius:50%;
+}
+.flex-container h1{
+  font-size:30px;
+  margin-bottom:50px;
+}
+.flex-container span{
+  font-size: 50px;
+}
+.flex-container h2{
+  font-family: monospace;
+}
